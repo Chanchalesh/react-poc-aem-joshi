@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-20T18:53:30.380+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/joshi-poc-aem/react/settings/wcm/templates/joshi-poc-aem-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Overview @2019"
+        sling:resourceType="joshi-poc-aem/react/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <article_header
+                    jcr:lastModified="{Date}2019-04-20T18:53:30.371+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;h3>Connect to Productivity at Control 2019&lt;/h3>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:lastModified="{Date}2019-04-20T18:53:13.918+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;p>2019 is a very special year for us – it commemorates 100 years of the first measuring technology presented by ZEISS in an industry fair: the iconic ZEISS Screw Gauge in the 1919 Leipzig Spring Fair. We haven’t looked back ever since, by supporting our customers wherever the highest level of precision is required and by setting industry standards for over 100 years to help our customers manufacture a better future. It has been an exciting journey, and we are thrilled about what is coming up next.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid_1001
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <image_898881992
+                            jcr:lastModified="{Date}2019-04-20T18:52:31.097+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            alt="zeiss"
+                            displayPopupTitle="false"
+                            fileName="zeiss2.PNG"
+                            isDecorative="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="hide"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_898881992>
+                        <image_23456
+                            jcr:lastModified="{Date}2019-04-20T18:52:45.154+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            alt="zeiss"
+                            displayPopupTitle="false"
+                            fileName="zeiss4.PNG"
+                            isDecorative="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_23456>
+                    </responsivegrid_1001>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

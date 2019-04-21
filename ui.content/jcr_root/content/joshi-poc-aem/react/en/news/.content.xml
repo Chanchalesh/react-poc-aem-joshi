@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <_x0032_022year/>
+    <jcr:content
+        cq:lastModified="{Date}2019-04-20T19:07:36.394+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/joshi-poc-aem/react/settings/wcm/templates/joshi-poc-aem-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Latest News"
+        sling:resourceType="joshi-poc-aem/react/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <article_header
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;h3>Here's our blog&lt;/h3>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:lastModified="{Date}2019-04-20T19:07:36.386+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;p>We have a clear goal: Enabling and accelerating the digital transformation of ZEISS @speed and @scale.&lt;br>&#xd;&#xa;We are developing digital solutions jointly with the ZEISS business groups and we are accelerating innovation that delivers a future value for our customers and our company. We will do this by building on our incredible 170 year heritage of successful innovations.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid_1001
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <image_898881992
+                            jcr:lastModified="{Date}2019-04-20T19:06:39.326+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            alt="zeiss"
+                            displayPopupTitle="false"
+                            fileName="zeiss1.PNG"
+                            isDecorative="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="hide"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_898881992>
+                        <image_23456
+                            jcr:lastModified="{Date}2019-04-20T19:06:50.925+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            alt="zeiss"
+                            displayPopupTitle="false"
+                            fileName="zeiss2.PNG"
+                            isDecorative="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_23456>
+                    </responsivegrid_1001>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <products-solutions/>
+</jcr:root>

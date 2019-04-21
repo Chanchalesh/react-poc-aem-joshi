@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-20T17:53:35.731+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/joshi-poc-aem/react/settings/wcm/templates/joshi-poc-aem-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Products and Solutions"
+        sling:resourceType="joshi-poc-aem/react/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title_brand
+                    jcr:lastModified="{Date}2019-04-20T17:51:15.008+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/image"
+                    alt="zeiss"
+                    displayPopupTitle="false"
+                    fileName="zeiss282.PNG"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                    <file/>
+                </title_brand>
+                <article_header
+                    jcr:lastModified="{Date}2019-04-20T17:52:09.689+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;h3>News &amp;amp; Events&lt;/h3>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:lastModified="{Date}2019-04-20T17:51:54.177+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;p>Carl Zeiss Meditec (ISIN: DE0005313704) has grown revenues to around EUR 667 million in the first six months of fiscal year 2018/19, based on preliminary data. This corresponds to a growth rate of approx. 9% against the previous year’s value of EUR 613.7 million. Adjusted for currency effects, the growth rate was around 7%.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid_1001
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <image_898881992
+                            jcr:lastModified="{Date}2019-04-20T17:52:33.275+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            displayPopupTitle="false"
+                            fileName="zeiss8.PNG"
+                            isDecorative="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="hide"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_898881992>
+                        <image_23456
+                            jcr:lastModified="{Date}2019-04-20T17:53:03.738+02:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="joshi-poc-aem/components/image"
+                            displayPopupTitle="false"
+                            fileName="zeiss1.PNG"
+                            isDecorative="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                            <file/>
+                        </image_23456>
+                    </responsivegrid_1001>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

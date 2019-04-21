@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/joshi-poc-aem/react"
+        cq:lastModified="{Date}2019-04-20T18:57:29.816+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/joshi-poc-aem/react/settings/wcm/templates/joshi-poc-aem-base-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Abour Zeiss"
+        sling:resourceType="joshi-poc-aem/react/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <top
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <article_header
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;h3>About us&lt;/h3>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </article_header>
+                <paragraph_1
+                    jcr:lastModified="{Date}2019-04-20T18:50:52.719+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;h1>ZEISS Group&lt;/h1>&#xd;&#xa;&lt;h2>Solutions that shape technological progress&lt;/h2>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_1>
+                <paragraph_2
+                    jcr:lastModified="{Date}2019-04-20T18:57:12.798+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;p>The ZEISS Research Award is the successor to the Carl Zeiss Research Award and was conferred for the first time in 2016. It carries on the idea of the Carl Zeiss Research Award, which has thus far been presented by the Ernst Abbe Fund within the Donors' Association for the Promotion of Sciences and Humanities in Germany.&lt;/p>&#xd;&#xa;&lt;p>The ZEISS Research Award will now be presented and sponsored exclusively by ZEISS. The award will honor outstanding achievements in international research. Many of the 26 awardwinners have gone on to receive other important distinctions, and four of them have even won the Nobel Prize.&lt;/p>&#xd;&#xa;&lt;p>Prize money of EUR 40,000 has been allocated to the award.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_2>
+                <paragraph_3
+                    jcr:lastModified="{Date}2019-04-20T18:56:46.627+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;p>Die Qmess GmbH gegründet 1999 und erfolgreich am Markt. Mit einem starken und motiviertem Team von inzwischen 21 exzellent ausgebildeten Mitarbeitern. Einen Chef, der weiß was er tut und mit sicherer und……&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </paragraph_3>
+                <footer_terms
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/text"
+                    text="&lt;span>2018 All rights reserved&lt;/span>&lt;span>Terms of use &amp; privacy policy&lt;/span>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </footer_terms>
+                <image
+                    jcr:created="{Date}2019-04-20T18:57:29.808+02:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-20T18:57:29.808+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="joshi-poc-aem/components/image"/>
+            </responsivegrid>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <started/>
+    <International/>
+</jcr:root>
